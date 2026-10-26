@@ -1,0 +1,16 @@
+{
+  "name": "prism-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PRISM project-management assistant, standalone website version",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.137.0"
+  }
+}
